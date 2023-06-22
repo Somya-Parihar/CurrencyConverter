@@ -1,0 +1,46 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 22-Jun-2023, 8:10:55 pm
+    Author     : somya
+*/
+
+body {
+    display: flex;
+	background-color: aliceblue;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+    flex-direction: column;
+}
+
+.heading {
+	font-family: 'Pacifico', cursive;
+	margin: 35px auto 20px;
+    text-align: center;
+}
+
+.form {
+    background-color: aqua;
+    display: flex;
+    align-self: center;
+    padding: 2%;
+    border-radius: 5%;
+}
+.to-from{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+.to {
+    margin: 4%;
+}
+.convert {
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
